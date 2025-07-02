@@ -2,7 +2,7 @@
 
 ## Мои контакты 
 - **Имя:** Диана
-- **tg:** [screamer] () 
+- **tg:** [wvweeb] (https://t.me/wvweeb) 
 - **email:** kasinskaadiana2@gmail.com
 - **github:** [skreamer20] (https://github.com/skreamer20)
 
