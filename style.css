@@ -18,15 +18,15 @@ body {
   display: flex;
   max-width: 1100px;
   margin: 0 auto;
-  border-radius: 15px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
-  background-color: #1c1c2b;
+  background-color: #1a1a2b;
 }
 
 /* Левая колонка */
 .sidebar {
-  background-color: #3d0e63;
+  background-color: #51078d;
   padding: 30px 20px;
   width: 35%;
   text-align: center;
@@ -40,7 +40,7 @@ body {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #fff;
+  border: 7px solid #000000;
   margin: 0 auto 20px auto;
 }
 
@@ -48,20 +48,20 @@ body {
   font-size: 24px;
   margin-bottom: 5px;
   text-transform: uppercase;
-  color: #fff;
+  color: #d1caf8;
 }
 
 .sidebar h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   margin-bottom: 30px;
-  color: #ddd;
+  color: #ffffff;
 }
 
 .sidebar h3 {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #ffeaa7;
+  color: #d9b4ff;
   border-bottom: 1px solid #ffffff30;
   padding-bottom: 4px;
 }
@@ -70,29 +70,36 @@ body {
   list-style: none;
   padding-left: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 .sidebar li::before {
   content: "• ";
-  color: #f8c291;
+  color: #9947f7;
 }
 
-.sidebar p, .sidebar a {
-  font-size: 14px;
-  color: #eee;
+.sidebar p, a {
+  font-size: 16px;
+  color: #ffffff;
   word-break: break-word;
   margin-bottom: 8px;
 }
 
-.sidebar a {
-  color: #b2f7ef;
+a {
+  color: #fff99f; /* мягкий желто-золотой */
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.sidebar a:hover {
+a:hover {
+  color: #5b02c0; /* розовый при наведении */
   text-decoration: underline;
+}
+
+a:active {
+  color: #d980fa;
+  text-decoration: none;
 }
 
 .soft-skills {
@@ -106,6 +113,14 @@ body {
 .soft-skills li {
   margin-bottom: 6px;
   
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 8px;
+  opacity: 0.8;
 }
 
 /* Правая часть */
@@ -130,6 +145,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 12px;
+  max-width: 100%;
 }
 
 .job {
