@@ -7,14 +7,27 @@
 </head>
 <body>
 
+  <header class="page-header">
+     <nav class="main-nav">
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#goal">Goal</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <div class="cv-container">
     <!-- left column -->
      <aside class="sidebar">
       <img src="img/profile.jpg" alt="Profile Photo" class="profile-pic" />
-      <h1>DIANA KASINSKAYA</h1>
-      <h2>Frontend Developer</h2>
+      <h1 class="glow-text">DIANA KASINSKAYA</h1>
+      <h2 class="glow-text">Frontend Developer</h2>
 
-      <section class="section">
+      <section class="section" id="skills">
         <h3>Skills</h3>
         <ul>
           <li>HTML / CSS</li>
@@ -35,6 +48,10 @@
           <li>Delphi</li>
           <li>SublimeText</li>
           <li>Node.js</li>
+          <li>Python</li>
+          <li>Golang</li>
+          <li>MySQL</li>
+          <li>Django4</li>
         </ul>
       </section>
 
@@ -51,45 +68,33 @@
           <li>Стрессоустойчивость</li>
         </ul>
       </section>
-
-      <section class="section">
-        <h3>Contact</h3>
-        <p>
-          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon" />
-          Email: <a href="mailto:kasinskaadiana2@gmail.com">kasinskaadiana2@gmail.com</a>
-        </p>
-        <p>
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="icon" />
-          Github: <a href="https://github.com/skreamer20" target="_blank">github.com/skreamer20</a>
-        </p>
-        <p>
-          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon" />
-          tg: <a href="https://t.me/wvweeb" target="_blank">@wvweebb</a>
-        </p> 
-      </section>
     </aside>
     
     <!--Right-->
     <main class="main-content">
-      <section class="section">
+      <section class="section" id="about">
         <h2>About Me</h2>
-        <p>Я начиающий фронтенд разработчик с огромным интерсом к веб-разработке и серверному интерфейсному дизайну. 
-          Увлекаюсь созданием удобных и понятных интерфесов, изучаю HTML, CSS, JavaScript,
-          а также осваиваю основы работы с Git, Python и SQL.</p>
+        <p>I am a beginner front-end developer with a huge interest in web development and server-side interface design. 
+          I' m passionate about creating user-friendly and understandable interfaces, I study HTML, CSS, JavaScript, 
+          and I am also mastering the basics of working with Git, Python and SQL. In the past, I was interested in back-end development, I studied at an educational institution at a basic level such languages ​​as: pascal, c++, c#, golang, 
+          I think after front-end development I will return to the back-end to study it too.</p>
           <p>
-          На данный момент учусь в RS School, где стараюсь активно прокачивать практические навыки. 
-          Мне безумно интерсно работатть в команде, учится новому и решать задачки.
-          Я полностью открыта к стажирвокам и первым проектам, где я смогу развиваться и вносить вклад в благое дело.</p>
+         At the moment, I am studying at RS School, where I am trying to actively improve my practical skills.
+         I am incredibly interested in working in a team, learning new things and solving problems. 
+         I am completely open to internships and first projects where I can develop and contribute to a good cause. 
+         I plan to devote the rest of my life to programming.</p>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projects</h2>
 
         <div class="job">
           <span class="year">2025</span>
           <div>
             <strong>CV PROJECT</strong>
-            <p>Made a resume website with sections about, skills, soft skills, education, job positions, contacts</p>
+            <p>Made a resume website with sections about, skills, soft skills, education, job positions, contacts
+              <br>GitHub link: <a href="https://github.com/skreamer20/rsschool-cv.git">https://github.com/skreamer20/rsschool-cv.git</a>
+            </p>
           </div>
         </div>
 
@@ -97,7 +102,9 @@
           <span class="year">2025</span>
           <div>
             <strong>Individual work for technical practice</strong>
-            <p>Developed an adaptive website for a report on technical internship at the company "Vistegra".</p>
+            <p>Developed an adaptive website for a report on technical internship at the company "Vistegra".
+              <br>GitHub link: <a href="https://github.com/skreamer20/individual11.git">https://github.com/skreamer20/individual11.git</a>
+            </p>
           </div>
         </div>
 
@@ -105,7 +112,9 @@
           <span class="year">2025</span>
           <div>
             <strong>Independent website layout from the practice manager</strong>
-            <p>Based on the layout, Figma independently designed the website.</p>
+            <p>Based on the layout, Figma independently designed the website.
+              <br>GitHub link: <a href="https://github.com/skreamer20/2.gitt">https://github.com/skreamer20/2.git</a>
+            </p>
           </div>
         </div>
 
@@ -113,7 +122,19 @@
           <span class="year">2025</span>
           <div>
             <strong>Coursework database of students and scholarship calculation</strong>
-            <p>Graphical application in C#, connected to databases using MySQL.</p>
+            <p>Graphical application in C#, connected to databases using MySQL.
+              <br>GitHub link: <a href="https://github.com/skreamer20/ScholarshipCalculator.git">https://github.com/skreamer20/ScholarshipCalculator.git</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="job">
+          <span class="year">2025</span>
+          <div>
+            <strong>Coursework "Database of athletes and competitions"</strong>
+            <p>Graphical application in C#, connected to databases using MySQL.
+              <br>GitHub link: <a href="https://github.com/skreamer20/SportsViewerApp.git">https://github.com/skreamer20/SportsViewerApp.git</a>
+            </p>
           </div>
         </div>
 
@@ -121,40 +142,78 @@
           <span class="year">2024</span>
           <div>
             <strong>Play catch the ball</strong>
-            <p>Coursework - a graphical application written in Pascal.</p>
+            <p>Coursework - a graphical application written in Pascal.
+            <br>GitHub link: <a href="https://github.com/skreamer20/catch-ball-play.git">https://github.com/skreamer20/catch-ball-play.git</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="job">
+          <span class="year">2024</span>
+          <div>
+            <strong>First independent website</strong>
+            <p>The first adaptive site, designed independently according to its own design, minimum functionality,
+               but quite functional, there are forms, greeting, footer and sections.
+            <br>GitHub link: <a href="https://github.com/skreamer20/project.git">https://github.com/skreamer20/project.git</a>
+          </p>
           </div>
         </div>
       </section>
 
-      <section class="section">
-        <h2>Education</h2>
+      <section class="section" id="education">
+        <h2>Education and courses</h2>
         <p>Educational Institution "Mogilev State Economic Industrial and Technological College"
         Specialty 5-04-0612-02 "Development and Maintenance of Information Systems Software"
         (3rd year, 2020-2026)</p>
       </section>
 
-      <section class="section">
-  <h2>Цель</h2>
-  <p>
-    Моя главная цель — начать карьеру во фронтенд-разработке. Я хочу присоединиться к команде, где смогу применять и развивать свои знания, 
-    работать над реальными проектами и получать опыт под руководством более опытных специалистов.
-  </p>
-  <p>
-    Я уверенно владею HTML, CSS, JavaScript на базовом уровне, умею работать с Git и GitHub, знакома с Markdown, VS Code и системами контроля версий. 
-    Я быстро учусь, умею искать решения, не боюсь сложных задач и открыта к новым знаниям. 
-  </p>
-  <p>
-    Мне важно не просто выполнять задания, а понимать, как всё работает. 
-    Я стремлюсь расти как разработчик и как член команды: хочу участвовать в создании удобных, качественных и красивых интерфейсов, 
-    которые действительно будут полезны пользователям.
-  </p>
-  <p>
-    Ищу стажировку или первую работу, где смогу делать вклад, расти и двигаться к уровню Junior Frontend Developer.
-  </p>
-</section>
-    </main>
+      <section class="section" id="goal">
+        <h2>Цель</h2>
+        <p>
+          My main goal is to start a career in frontend development. I want to join a team where I can apply and 
+          develop my knowledge, work on real projects and gain experience under the guidance of more experienced specialists.
+        </p>
+        <p>
+          I have a confident command of HTML, CSS, JavaScript at a basic level, I can work with Git and GitHub,
+           I am familiar with Markdown, VS Code and version control systems. I learn quickly, I know how to find solutions, 
+          I am not afraid of complex tasks and I am open to new knowledge.
+        </p>
+        <p>
+         It is important for me not just to complete tasks, but to understand how everything works. I strive to grow as a developer and as a team member: I want 
+         to participate in the creation of convenient, high-quality and beautiful interfaces that will be truly useful to users.
+        </p>
+        <p>
+          I am looking for an internship or my first job where I can contribute, grow and move towards the level of Junior Frontend Developer.
+        </p>
+        <p>
+          My plans include entering BRU in 2026 to obtain higher education to the faculty of electrical 
+          engineering information management systems (3.5 years of correspondence courses).
+        </p>
+      </section>
+  </main>
 
   </div>
-
+  <footer class="footer" id="contacts">
+      <p>© 2025 by Diana Kasinskaya</p>
+      <ul class="contact-list">
+         <li>
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon" />
+          Email: <a href="mailto:kasinskaadiana2@gmail.com">kasinskaadiana2@gmail.com</a>
+        </li>
+        <li>
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="icon" />
+          Github: <a href="https://github.com/skreamer20" target="_blank">github.com/skreamer20</a>
+        </li>
+        <li>
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon" />
+          tg: <a href="https://t.me/wvweeb" target="_blank">@wvweebb</a>
+        </li> 
+      </ul>
+      <div class="rs-logo">
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+          <img src="img/rs-logo.svg" alt="RS School Logo" />
+        </a>
+      </div>
+</footer>
 </body>
 </html>
